@@ -126,7 +126,7 @@ document.querySelector('#book-form').addEventListener('keyup', (e) => {
 
     //validate the data
     if (title == '' || author == '' || isbn == '') {
-        // document.querySelector('#addBookButton').setAttribute('disabled');
+        document.querySelector('#addBookButton').setAttribute('disabled','');
     } else {
         document.querySelector('#addBookButton').removeAttribute('disabled');
     }
